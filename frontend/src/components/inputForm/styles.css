@@ -1,0 +1,16 @@
+.input-form {
+    height: 2rem;
+    width: 36rem;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+}
+
+.filterPanel, .advancedPanel {
+    height: fit-content;
+    width: 100%;
+    display: none;
+    background-color: 	#282b30;
+}

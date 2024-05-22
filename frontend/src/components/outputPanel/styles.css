@@ -1,0 +1,27 @@
+table {
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+    border: 1pt solid rgb(238, 238, 238);
+  }
+  
+  tr {
+    border: 0.5pt solid rgb(238, 238, 238);
+  }
+  tr:nth-child(even) {
+    background-color: #313338;
+  }
+  tr:nth-child(odd) {
+    background-color:  rgb(34, 33, 33);
+  }
+
+  td {
+    border-left: 0.5pt solid rgb(238, 238, 238);
+    border-right: 0.5pt solid rgb(238, 238, 238);
+}
+
+.tableName {
+    border: 1pt solid rgb(238, 238, 238);
+    border-bottom: none;
+    font-weight: bolder;
+    background-color: 	#282b30;
+}
